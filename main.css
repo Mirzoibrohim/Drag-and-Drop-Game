@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #111827;
+}
+header {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  color: #fff;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  display: inline-block;
+  background-color: #fff;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+}
+.icons {
+  margin: 0px -75px 0 10px;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  border: solid 1px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  background-color: #111827;
+}
+.ic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 250px 0 250px;
+}
+.answer {
+  font-family: 'Dosis', sans-serif;
+  background: #fff;
+}
+.timer {
+  border: solid 2px #fff;
+  color: #fff;
+  border-radius: 15px;
+  width: 240px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Dosis', sans-serif;
+}
+.resulttt {
+  margin-left: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10000px;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 700;
+  font-size: 35px;
+  font-family: 'Dosis', sans-serif;
+}
+.icon {
+  padding: 15px;
+  background-color: #11182700;
+  cursor: all-scroll;
+}
+
+.i1:hover {
+  color: aqua;
+  transition: 0.3s;
+}
+.i2:hover {
+  color: rgb(208, 255, 0);
+  transition: 0.3s;
+}
+.i3:hover {
+  color: crimson;
+  transition: 0.3s;
+}
+.i4:hover {
+  color: rgb(51, 206, 51);
+  transition: 0.3s;
+}
+button {
+  padding: 22px;
+  background-color: none;
+  color: #fff;
+  border: solid 1px aquamarine;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  font-size: 12px;
+  transition: 0.5s;
+  width: 100px;
+}
+.btn1:hover {
+  background-color: aquamarine;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.btn2 {
+  border: solid 1px crimson;
+}
+.btn2:hover {
+  background-color: crimson;
+  margin-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+.hovered {
+  background: rgb(235, 218, 218);
+  color: #000;
+}
+
+.liicon {
+  display: none;
+}
+
+.green {
+  transition: 0.2s;
+  background-color: rgb(76, 241, 103);
+}
+.red {
+  transition: 0.2s;
+  background-color: crimson;
+}

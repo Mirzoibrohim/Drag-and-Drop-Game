@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="main.css" rel="stylesheet" />
+
+    <title>Анимация в CSS3</title>
+  </head>
+  <body>
+    <header>Drag and drop</header>
+    <ul class="cards" id="cards">
+      <li class="card js-card" data-draggable-id="ball">Ball</li>
+      <li class="card js-card" data-draggable-id="person">Person</li>
+      <li class="card js-card" data-draggable-id="bug">Bug</li>
+      <li class="card js-card" data-draggable-id="moon">Moon</li>
+    </ul>
+    <div class="ic">
+      <div class="timer"><span id="sec">00</span>:<span id="min">00</span></div>
+      <div class="resulttt"><span class="answer">0</span>/4</div>
+      <div class="icons js-iBox" id="iconsBox">
+        <ion-icon
+          class="icon i1 js-i"
+          name="moon-outline"
+          draggable="true"
+          id="moon"
+        ></ion-icon>
+        <ion-icon
+          class="icon i2 js-i"
+          name="accessibility-outline"
+          draggable="true"
+          id="person"
+        ></ion-icon>
+        <ion-icon
+          class="icon i3 js-i"
+          name="bug-outline"
+          draggable="true"
+          id="bug"
+        ></ion-icon>
+        <ion-icon
+          class="icon i4 js-i"
+          name="football-outline"
+          draggable="true"
+          id="ball"
+        ></ion-icon>
+        <button class="btn1 js-btn">CHECK</button>
+        <button class="btn2 js-btn">RESTART</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
